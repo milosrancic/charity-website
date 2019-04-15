@@ -24,3 +24,7 @@ body {
   background-position: center center;
   height: 50vh;
 }
+
+#story {
+  text-align: justify;
+}
