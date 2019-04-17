@@ -1,15 +1,15 @@
 body {
-  max-width: 1300px;
+  /* max-width: 1300px; */
   margin: 0 auto;
   padding: 0;
 }
 
-.nav {
-}
+.nav {}
 
 .navbar-brand {
   padding: 5px;
 }
+
 .donate {
   border: 1px solid red;
   margin: 4px;
@@ -25,6 +25,9 @@ body {
   height: 50vh;
 }
 
-#story {
+#about {
   text-align: justify;
+  margin-bottom: 100px;
 }
+
+.card {}
