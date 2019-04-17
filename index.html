@@ -1,68 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Charity</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Charity</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body>
+    <!-- <div> -->
+    <div class="container-fluid">
+      <a class="navbar-brand float-sm-left d-none d-sm-block " href=""
+        >|Charity|</a
+      >
+      <ul class="nav justify-content-center justify-content-sm-end ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link donate" href="#">Donate</a>
+        </li>
+      </ul>
+    </div>
 
-<body>
-  <!-- <div> -->
-  <div class="container-fluid">
-    <a class="navbar-brand float-sm-left d-none d-sm-block " href="">|Charity|</a>
-    <ul class="nav justify-content-center justify-content-sm-end ">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Story</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="#">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link donate" href="#">Donate</a>
-      </li>
-    </ul>
-  </div>
+    <div class="jumbotron jumbotron-fluid"></div>
 
-  <div class="jumbotron jumbotron-fluid"></div>
+    <section id="about" class="container">
+      <h2 class="text-center">You might wonder, how this all come to be?</h2>
+      <p>
+        The Charity works directly with thousands of homeless people every year.
+        We provide vital help so that people can rebuild their lives and are
+        supported out of homelessness for good. We offer one to one support,
+        advice and courses for homeless people in more than 17 European
+        countries. How we help someone depends on their individual needs and
+        situation. It could be with finding a home and settling in, getting new
+        skills and finding a job, or help with their health and wellbeing. We
+        use research to find out how best to improve our services, but also to
+        find wider solutions to homelessness. Together with homeless people and
+        Crisis suporters, we campaign for the changes needed to end homelessness
+        for good.
+      </p>
 
-  <section id="story" class="container-fluid float-sm-left ">
-    <h2>You might wonder, how this all come to be?</h2>
-    <p>The Charity works directly with thousands of homeless people every year. We provide vital help so that people
-      can rebuild their lives and are supported out of homelessness for good. We offer one to one support, advice and
-      courses for homeless people in more than 17 European countries. How we help someone depends on their individual
-      needs and situation. It could be with finding a home and settling in, getting new skills and finding a job, or
-      help with their health and wellbeing. We use research to find out how best to improve our services, but also to
-      find wider solutions to homelessness. Together with homeless people and Crisis suporters, we campaign for the
-      changes needed to end homelessness for good.</p>
-    <p>The Charity the power something globally, empowering communities to lift themselves out of poverty
-      through holistic, sustainable international development model, the villages. The Charity is international and
-      educational partner. Our organization is unique among European charities in that it operates collaborative
-      programs both domestically and internationally.</p>
-  </section>
-  <!-- </div> -->
+      <div class="card-group text-center">
+        <div class="card">
+          <div class="card-header">
+            <h5>Mision</h5>
+          </div>
+          <div class="card-body bg-light">
+            <p class="card-text">
+              To support and inspire people who are homeless to change their own
+              lives.
+            </p>
+          </div>
+        </div>
+        <div class="card ">
+          <div class="card-header">
+            <h5>Vision</h5>
+          </div>
+          <div class="card-body bg-light">
+            <p class="card-text">
+              World without homelessness and overall positive change.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end of card group -->
+    </section>
+    <!-- </div> -->
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-  <script src="js/script.js"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
