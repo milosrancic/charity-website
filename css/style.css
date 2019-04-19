@@ -25,19 +25,28 @@ body {
   height: 50vh;
 }
 
-#about {
+#about-section {
   text-align: justify;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
+}
+
+#about-section p:not(.card-text) {
+  padding: 30px 0;
 }
 
 .card {}
 
-/* .progress-container {
-  display: flex;
-} */
 
-#progress {
-  /* margin: 20px; */
-  width: 200px;
-  height: 200px;
+#progress-section {
+  /* margin-top: 150px; */
+  margin-bottom: 70px;
+}
+
+.progress {
+  height: 30px;
+  margin: 5px;
+}
+
+#help-section {
+  margin-bottom: 70px;
 }
