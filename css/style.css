@@ -4,6 +4,12 @@ body {
   padding: 0;
 }
 
+.contact-p {
+
+  font-size: 14px;
+  /* letter-spacing: 1px; */
+}
+
 .nav {}
 
 .navbar-brand {
@@ -49,4 +55,17 @@ body {
 
 #help-section {
   margin-bottom: 70px;
+}
+
+#news-section {
+  margin-bottom: 150px;
+}
+
+#news-section .card {
+  /* border: none; */
+
+}
+
+#news-section .card-footer {
+  font-size: 14px;
 }
