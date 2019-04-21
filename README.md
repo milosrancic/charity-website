@@ -2,7 +2,7 @@
 
 [] - progressbar(s)
 
-[] - couple photos, gallery
+[x] - couple photos, gallery, photo row
 
 [x] - "get involved/how can you help" section -> donate, volunteer, campaign (cards with photo, title, text, anchor link)
 
