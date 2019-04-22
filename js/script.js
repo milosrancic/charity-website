@@ -4,4 +4,4 @@ function randomNum() {
   let num = Math.floor(Math.random() * (max - min));
   return num;
 }
-document.getElementById("donations").innerHTML = "$" + randomNum();
+document.getElementById("donations").innerHTML = "€ " + randomNum();
