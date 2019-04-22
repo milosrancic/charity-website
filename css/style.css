@@ -2,6 +2,7 @@ body {
   /* max-width: 1300px; */
   margin: 0 auto;
   padding: 0;
+  background: lightsteelblue;
 }
 
 .contact-p {
@@ -16,7 +17,7 @@ body {
   padding: 5px;
 }
 
-.donate {
+.nav-link-donate {
   border: 1px solid red;
   margin: 4px;
   padding: 3px;
@@ -42,6 +43,15 @@ body {
 
 .card {}
 
+
+/* DONATIONS CONTAINER */
+#donations-container {
+  letter-spacing: 1px;
+}
+
+#donations-container button {
+  letter-spacing: 1px;
+}
 
 #progress-section {
   /* margin-top: 150px; */
