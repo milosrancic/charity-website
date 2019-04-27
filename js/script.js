@@ -5,3 +5,14 @@ function randomNum() {
   return num;
 }
 document.getElementById("donations").innerHTML = "€ " + randomNum();
+
+const contantForm = document.getElementsByClassName("contact-form")[0];
+ConstantSourceNode;
+console.log(contantForm);
+
+$(".submit-message").hide();
+$(".submit-btn").click(function(e) {
+  e.preventDefault();
+  // $(".submit-message").show();
+  // alert("Message has been sent");
+});
