@@ -87,3 +87,7 @@ body {
 #form-section {
   margin-bottom: 150px;
 }
+
+textarea {
+  resize: none;
+}
