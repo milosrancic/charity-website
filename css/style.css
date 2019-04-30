@@ -47,6 +47,7 @@ body {
 /* DONATIONS CONTAINER */
 #donations-container {
   letter-spacing: 1px;
+  margin-bottom: 50px;
 }
 
 #donations-container button {
