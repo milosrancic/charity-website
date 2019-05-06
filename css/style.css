@@ -6,12 +6,12 @@ body {
 }
 
 .contact-p {
-
   font-size: 14px;
   /* letter-spacing: 1px; */
 }
 
-.nav {}
+.nav {
+}
 
 .navbar-brand {
   padding: 5px;
@@ -41,7 +41,8 @@ body {
   padding: 30px 0;
 }
 
-.card {}
+.card {
+}
 
 h2 {
   /* margin: 30px 0; */
@@ -82,7 +83,6 @@ h2 {
 
 #news-section .card {
   /* border: none; */
-
 }
 
 #news-section .card-footer {
@@ -95,4 +95,20 @@ h2 {
 
 textarea {
   resize: none;
+}
+
+#footer p {
+  font-size: 10px;
+}
+.heart {
+  color: #f20000;
+  font-size: 10px;
+}
+#footer a {
+  text-decoration: underline;
+  letter-spacing: 1px;
+  color: black;
+}
+#footer a:hover {
+  color: #f20000;
 }
