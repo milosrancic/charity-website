@@ -1,3 +1,4 @@
+// function that generates random value
 function randomNum() {
   let min = 3000;
   let max = 100000;
