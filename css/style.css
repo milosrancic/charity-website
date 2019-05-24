@@ -1,8 +1,8 @@
 body {
-  /* max-width: 1300px; */
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0;
-  background: lightsteelblue;
+  /* background: lightsteelblue; */
 }
 
 .contact-p {
@@ -10,8 +10,7 @@ body {
   /* letter-spacing: 1px; */
 }
 
-.nav {
-}
+.nav {}
 
 .navbar-brand {
   padding: 5px;
@@ -41,8 +40,7 @@ body {
   padding: 30px 0;
 }
 
-.card {
-}
+.card {}
 
 h2 {
   /* margin: 30px 0; */
@@ -100,15 +98,18 @@ textarea {
 #footer p {
   font-size: 10px;
 }
+
 .heart {
   color: #f20000;
   font-size: 10px;
 }
+
 #footer a {
   text-decoration: underline;
   letter-spacing: 1px;
   color: black;
 }
+
 #footer a:hover {
   color: #f20000;
 }
