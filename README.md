@@ -2,8 +2,8 @@
 
 [] - progressbar(s)
 
-[] - update navbar links accordingly to website sections
+[x] - update navbar links accordingly to website sections
 
-[] - change font, bg color, links color
+[x, x, ?] - change font, bg color, links color
 
 <!-- x -->
