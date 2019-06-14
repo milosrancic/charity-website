@@ -21,23 +21,34 @@
     Phone: <span style="font-style: italic;">+353 20 914 621</span> |
     E-mail: <span style="font-style: italic;">info@charity.com</span>
   </p>
-  <!-- <div> -->
-  <div class="container-fluid">
+  <div class="container-fluid navigation">
     <a class="navbar-brand float-sm-left d-none d-sm-block " href="">|Charity|</a>
     <ul class="nav justify-content-center justify-content-sm-end ">
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#about-section">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="#help-section">Engage</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-link-donate" href="#">Donate</a>
+        <a class="nav-link" href="#news-section">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#form-section">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-donate" href="#donations-container">Donate</a>
       </li>
     </ul>
   </div>
 
   <div class="jumbotron jumbotron-fluid"></div>
+
+  <div id="donations-container" class="text-center">
+    <p class="m-0">So far collected:</p>
+    <h3> <span id="donations"></span> <small>out of</small> € 100000 </h3>
+    <button type="btn" class="btn btn-primary">Donate!</button>
+  </div>
 
   <!-- About section -->
   <section id="about-section" class="container">
@@ -80,12 +91,6 @@
       </div>
     </div>
   </section>
-
-  <div id="donations-container" class="text-center">
-    <p class="m-0">So far collected:</p>
-    <h3> <span id="donations"></span> <small>out of</small> € 100000 </h3>
-    <button type="btn" class="btn btn-primary">Donate!</button>
-  </div>
 
   <!-- Progress section -->
   <!-- <section id="progress-section" class="container">
