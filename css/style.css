@@ -11,7 +11,11 @@ body {
 .contact-p {
   padding-top: 3px;
   font-size: 14px;
-  /* letter-spacing: 1px; */
+  letter-spacing: 1px;
+}
+
+.navigation a {
+  /* font-size: 10px; */
 }
 
 .nav {}
