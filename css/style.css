@@ -14,11 +14,6 @@ body {
   letter-spacing: 1px;
 }
 
-.navigation a {
-  /* font-size: 10px; */
-}
-
-.nav {}
 
 .navbar-brand {
   padding: 5px;
@@ -48,7 +43,6 @@ body {
   padding: 30px 0;
 }
 
-.card {}
 
 h2 {
   /* margin: 30px 0; */
@@ -85,10 +79,6 @@ h2 {
 
 #news-section {
   margin-bottom: 150px;
-}
-
-#news-section .card {
-  /* border: none; */
 }
 
 #news-section .card-footer {
